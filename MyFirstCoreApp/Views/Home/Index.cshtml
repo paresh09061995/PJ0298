@@ -1,4 +1,4 @@
-﻿@model MyFirstCoreApp.Models.Student
+﻿@model MyFirstCoreApp.Models.commonModel;
 
 @{
     ViewData["Title"] = "Index";
@@ -12,19 +12,19 @@
         <form asp-action="Index" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="RollNo" class="control-label"></label>
-                <input asp-for="RollNo" class="form-control" />
-                <span asp-validation-for="RollNo" class="text-danger"></span>
+                <label asp-for="studentdata.RollNo" class="control-label"></label>
+                <input asp-for="studentdata.RollNo" class="form-control" />
+                <span asp-validation-for="studentdata.RollNo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+                <label asp-for="studentdata.Name" class="control-label"></label>
+                <input asp-for="studentdata.Name" class="form-control" />
+                <span asp-validation-for="studentdata.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Class" class="control-label"></label>
-                <input asp-for="Class" class="form-control" />
-                <span asp-validation-for="Class" class="text-danger"></span>
+                <label asp-for="studentdata.Class" class="control-label"></label>
+                <input asp-for="studentdata.Class" class="form-control" />
+                <span asp-validation-for="studentdata.Class" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
@@ -36,17 +36,40 @@
 <div>
     <h4>Student Details</h4>
     <hr />
-    <table border="1">
-        <tr>
-            <th>@Html.DisplayNameFor(model => model.RollNo)</th>
-            <th>@Html.DisplayNameFor(model => model.Name)</th>
-            <th>@Html.DisplayNameFor(model => model.Class)</th>
-        </tr>
-        <tr>
-            <td>@Html.DisplayFor(model => model.RollNo)</td>
-            <td>@Html.DisplayFor(model => model.Name)</td>
-            <td>@Html.DisplayFor(model => model.Class)</td>
-        </tr>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.studentdata.RollNo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.studentdata.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.studentdata.Class)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                @foreach (var item in Model.student.studentList)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RollNo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Class)
+                        </td>
+                    </tr>
+                }
+            }
+            </tbody>
     </table>
 </div>
 
