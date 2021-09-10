@@ -2,13 +2,14 @@
 
 @{
     ViewData["Title"] = "Index";
+    var student = ViewBag.Student;
 }
 
 <h4>Student Registration Form</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Index">
+        <form asp-action="Index" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="RollNo" class="control-label"></label>
@@ -33,16 +34,21 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <h4>Student Details</h4>
+    <hr />
+    <table border="1">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.RollNo)</th>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Class)</th>
+        </tr>
+        <tr>
+            <td>@Html.DisplayFor(model => model.RollNo)</td>
+            <td>@Html.DisplayFor(model => model.Name)</td>
+            <td>@Html.DisplayFor(model => model.Class)</td>
+        </tr>
+    </table>
 </div>
-
-<h4>Student Details</h4>
-<hr />
-<table>
-    <tr>
-        <td></td>
-    </tr>
-</table>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

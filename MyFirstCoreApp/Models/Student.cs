@@ -10,6 +10,10 @@ namespace MyFirstCoreApp.Models
         public int RollNo { get; set; }
         public string Name { get; set; }
         public string Class { get; set; }
-
     }
+    public class studentList
+    {
+        public List<Student> Students { get; set; }
+    }
+    
 }

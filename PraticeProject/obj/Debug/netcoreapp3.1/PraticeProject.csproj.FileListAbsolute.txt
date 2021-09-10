@@ -1,0 +1,13 @@
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\bin\Debug\netcoreapp3.1\PraticeProject.exe
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\bin\Debug\netcoreapp3.1\PraticeProject.deps.json
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\bin\Debug\netcoreapp3.1\PraticeProject.runtimeconfig.json
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\bin\Debug\netcoreapp3.1\PraticeProject.runtimeconfig.dev.json
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\bin\Debug\netcoreapp3.1\PraticeProject.dll
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\bin\Debug\netcoreapp3.1\PraticeProject.pdb
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\obj\Debug\netcoreapp3.1\PraticeProject.csproj.AssemblyReference.cache
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\obj\Debug\netcoreapp3.1\PraticeProject.AssemblyInfoInputs.cache
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\obj\Debug\netcoreapp3.1\PraticeProject.AssemblyInfo.cs
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\obj\Debug\netcoreapp3.1\PraticeProject.csproj.CoreCompileInputs.cache
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\obj\Debug\netcoreapp3.1\PraticeProject.dll
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\obj\Debug\netcoreapp3.1\PraticeProject.pdb
+D:\_ABS\TrainingSessons\PJ0298\PraticeProject\obj\Debug\netcoreapp3.1\PraticeProject.genruntimeconfig.cache

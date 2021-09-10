@@ -11,15 +11,13 @@ namespace MyFirstCoreApp.Controllers
     {
         public IActionResult Index()
         {
-            List<Student> students = new List<Student>();
-            students.Add(new Student() { RollNo = 1, Name = "Paresh", Class = "A" });
-            Student student = new Student();
-            student.RollNo = 2;
-            student.Name = "ABC";
-            student.Class = "B";
-            students.Add(student);
-            ViewData["students"] = students;
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Index(Student model)
+        {
+            return View(model);
         }
     }
 }
