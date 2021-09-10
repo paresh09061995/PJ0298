@@ -1,0 +1,13 @@
+D:\_ABS\TrainingSessons\VBProject\bin\Debug\netcoreapp3.1\VBProject.exe
+D:\_ABS\TrainingSessons\VBProject\bin\Debug\netcoreapp3.1\VBProject.deps.json
+D:\_ABS\TrainingSessons\VBProject\bin\Debug\netcoreapp3.1\VBProject.runtimeconfig.json
+D:\_ABS\TrainingSessons\VBProject\bin\Debug\netcoreapp3.1\VBProject.runtimeconfig.dev.json
+D:\_ABS\TrainingSessons\VBProject\bin\Debug\netcoreapp3.1\VBProject.dll
+D:\_ABS\TrainingSessons\VBProject\bin\Debug\netcoreapp3.1\VBProject.pdb
+D:\_ABS\TrainingSessons\VBProject\obj\Debug\netcoreapp3.1\VBProject.vbproj.AssemblyReference.cache
+D:\_ABS\TrainingSessons\VBProject\obj\Debug\netcoreapp3.1\VBProject.AssemblyInfoInputs.cache
+D:\_ABS\TrainingSessons\VBProject\obj\Debug\netcoreapp3.1\VBProject.AssemblyInfo.vb
+D:\_ABS\TrainingSessons\VBProject\obj\Debug\netcoreapp3.1\VBProject.vbproj.CoreCompileInputs.cache
+D:\_ABS\TrainingSessons\VBProject\obj\Debug\netcoreapp3.1\VBProject.dll
+D:\_ABS\TrainingSessons\VBProject\obj\Debug\netcoreapp3.1\VBProject.pdb
+D:\_ABS\TrainingSessons\VBProject\obj\Debug\netcoreapp3.1\VBProject.genruntimeconfig.cache
