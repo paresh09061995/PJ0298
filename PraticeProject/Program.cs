@@ -22,10 +22,10 @@ namespace PraticeProject
             return new string(str);
         }
 
-        public string removeDuplicates(string input)
-        {
-            return new string(input.ToCharArray().Distinct().ToArray());
-        }
+        //public string removeDuplicates(string input)
+        //{
+        //    return new string(input.ToCharArray().Distinct().ToArray());
+        //}
 
         public void getMenu() {
             Console.WriteLine("--------------Please select option from below-------------------");
